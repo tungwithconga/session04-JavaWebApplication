@@ -1,6 +1,6 @@
 package com.session04s.bai1.controller;
 
-import com.session04s.bai1.service.OrderService;
+import com.session04s.bai1.service.OrderServiceBai1;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.*;
 @Controller("legacyControllerBai1")
 public class LegacyController {
 
-    private final OrderService orderService;
+    private final OrderServiceBai1 orderService;
 
     @Autowired
-    public LegacyController(OrderService orderService) {
+    public LegacyController(OrderServiceBai1 orderService) {
         this.orderService = orderService;
     }
 

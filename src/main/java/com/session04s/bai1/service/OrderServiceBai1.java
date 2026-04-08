@@ -5,12 +5,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class OrderService {
+public class OrderServiceBai1 {
 
     private final OrderRepositoryBai1 orderRepository;
 
     @Autowired
-    public OrderService(OrderRepositoryBai1 orderRepository) {
+    public OrderServiceBai1(OrderRepositoryBai1 orderRepository) {
         this.orderRepository = orderRepository;
     }
 
